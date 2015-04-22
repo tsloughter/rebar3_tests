@@ -1,0 +1,5 @@
+TERM=dumb rebar3 compile
+>>>
+===> Verifying dependencies...
+===> Compiling defaultlib
+>>>= 0
