@@ -1,0 +1,10 @@
+rebar3 new help
+>>>
+Call `rebar3 new help <template>` for a detailed description
+
+app (built-in): OTP Application
+cmake (built-in): Makefile for building C/C++ in c_src
+lib (built-in): OTP Library application (no processes)
+plugin (built-in): Rebar3 plugin
+release (built-in): OTP Release structure for executable programs
+>>>= 0
