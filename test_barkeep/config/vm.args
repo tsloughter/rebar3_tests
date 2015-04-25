@@ -1,0 +1,6 @@
+-name test_barkeep
+
+-setcookie test_barkeep_cookie
+
++K true
++A30
