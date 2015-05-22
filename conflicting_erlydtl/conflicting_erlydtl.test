@@ -1,4 +1,4 @@
 # a release with n2o-2.3 which has a conflicting erlydtl
-rebar3 release
+rebar3 tar
 >>> /===> release successfully created!/
 >>>= 0

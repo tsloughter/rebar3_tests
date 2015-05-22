@@ -1,0 +1,12 @@
+TERM=dumb rebar3 clean
+>>>
+===> Cleaning out multi_app_hooks...
+CLEAN!
+>>>= 0
+
+TERM=dumb rebar3 compile
+>>>
+===> Verifying dependencies...
+===> Compiling multi_app_hooks
+COMPILE!
+>>>= 0
