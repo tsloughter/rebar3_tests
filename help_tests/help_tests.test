@@ -9,3 +9,77 @@ lib (built-in): Complete OTP Library application (no processes) structure
 plugin (built-in): Rebar3 plugin project structure
 release (built-in): OTP Release structure for executable programs
 >>>= 0
+
+rebar3 help
+>>>
+Rebar3 is a tool for working with Erlang projects.
+
+
+
+Several tasks are available:
+
+as                Higher order provider for running multiple tasks in a sequence as a certain profiles.
+clean             Remove compiled beam files from apps.
+compile           Compile apps .app.src and .erl files.
+cover             Perform coverage analysis.
+ct                Run Common Tests.
+deps              List dependencies
+dialyzer          Run the Dialyzer analyzer on the project.
+do                Higher order provider for running multiple tasks in a sequence.
+edoc              Generate documentation using edoc.
+escriptize        Generate escript archive.
+eunit             Run EUnit Tests.
+help              Display a list of tasks or help for a given task or subtask.
+new               Create new project from templates.
+pkgs              List available packages.
+release           Build release of project.
+report            Provide a crash report to be sent to the rebar3 issues page.
+shell             Run shell with project apps and deps in path.
+tar               Tar archive of release built of project.
+unlock            Unlock dependencies.
+update            Update package index.
+upgrade           Upgrade dependencies.
+version           Print version for rebar and current Erlang.
+xref              Run cross reference analysis.
+
+hex <task>:
+  config         Read or update hex configuration file
+  cut            Increment version number and publish package
+  docs           Publish documentation for the current project and version
+  info           Prints hex package or system information
+  key            Remove or list API keys associated with your account
+  owner          Add, remove or list package owners
+  publish        Publish a new version of your package and update the package
+  search         Display packages matching the given search query
+  user           Hex user tasks
+
+plugins <task>:
+  list           List local and global plugins for this project
+  upgrade        Uprade plugins
+
+Run 'rebar3 help <TASK>' for details.
+
+
+>>>= 0
+
+rebar3 plugins
+>>>
+
+plugins <task>:
+  list           List local and global plugins for this project
+  upgrade        Uprade plugins
+>>>= 0
+
+rebar3 help plugins
+>>>
+
+plugins <task>:
+  list           List local and global plugins for this project
+  upgrade        Uprade plugins
+>>>= 0
+
+rebar3 help plugins list
+>>>
+List local and global plugins for this project
+Usage: rebar3 plugins list
+>>>= 0
