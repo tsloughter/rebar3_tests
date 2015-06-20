@@ -10,3 +10,7 @@ TERM=dumb rebar3 compile
 ===> Compiling multi_app_hooks
 COMPILE!
 >>>= 0
+
+TERM=dumb rebar3 as prod tar
+>>> !/===> Dev mode enabled, release will be symlinked/
+>>>= 0
