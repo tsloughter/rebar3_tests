@@ -1,4 +1,0 @@
-# a release with packages that depend on each other for compilation: issue 370
-rebar3 release
->>> /===> release successfully created!/
->>>= 0
