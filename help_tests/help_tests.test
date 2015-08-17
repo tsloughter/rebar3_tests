@@ -37,6 +37,7 @@ relup             Create relup of releases.
 report            Provide a crash report to be sent to the rebar3 issues page.
 shell             Run shell with project apps and deps in path.
 tar               Tar archive of release built of project.
+tree              Print dependency tree.
 unlock            Unlock dependencies.
 update            Update package index.
 upgrade           Upgrade dependencies.

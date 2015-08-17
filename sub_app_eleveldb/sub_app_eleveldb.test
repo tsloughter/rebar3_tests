@@ -1,0 +1,5 @@
+TERM=dumb rm -f _build/default/lib/eleveldb/priv/eleveldb.so && rebar3 compile
+>>>= 0
+
+ls _build/default/lib/eleveldb/priv/eleveldb.so
+>>>= 0
