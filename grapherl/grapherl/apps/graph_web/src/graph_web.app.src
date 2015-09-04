@@ -1,0 +1,18 @@
+{application, graph_web,
+ [{description, "An OTP web application for Grapherl."}
+ ,{vsn, "0.2.0"}
+ ,{registered, []}
+ ,{mod, {'graph_web_app', []}}
+ ,{applications,
+   [kernel
+   ,stdlib
+   ,crypto
+   ,sasl
+   ,syntax_tools
+   ,cowboy
+   ,mochiweb
+   ,lager
+   ]}
+ ,{env,[]}
+ ,{modules, []}
+ ]}.

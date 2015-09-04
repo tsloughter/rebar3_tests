@@ -7,11 +7,11 @@ c_src/refobjects.o: c_src/refobjects.cc c_src/detail.hpp \
  c_src/leveldb/include/leveldb/write_batch.h \
  c_src/leveldb/include/leveldb/perf_count.h c_src/threading.h \
  c_src/mutex.h c_src/eleveldb.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_nif.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_native_features_config.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_drv_nif.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_int_sizes_config.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_nif_api_funcs.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_nif.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_native_features_config.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_drv_nif.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_int_sizes_config.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_nif_api_funcs.h \
  c_src/work_result.hpp c_src/atoms.h c_src/workitems.h \
  c_src/leveldb/include/leveldb/cache.h \
  c_src/leveldb/include/leveldb/filter_policy.h

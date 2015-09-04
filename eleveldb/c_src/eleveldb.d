@@ -1,9 +1,9 @@
 c_src/eleveldb.o: c_src/eleveldb.cc c_src/eleveldb.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_nif.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_native_features_config.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_drv_nif.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_int_sizes_config.h \
- /home/tristan/.erln8.d/otps/OTP-18.0/dist/lib/erlang/erts-7.0/include/erl_nif_api_funcs.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_nif.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_native_features_config.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_drv_nif.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_int_sizes_config.h \
+ /home/tristan/.erln8.d/otps/OTP-18.0.3/dist/lib/erlang/erts-7.0.3/include/erl_nif_api_funcs.h \
  c_src/leveldb/include/leveldb/db.h \
  c_src/leveldb/include/leveldb/iterator.h \
  c_src/leveldb/include/leveldb/slice.h \
