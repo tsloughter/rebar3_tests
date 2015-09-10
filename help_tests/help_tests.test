@@ -31,6 +31,7 @@ escriptize        Generate escript archive.
 eunit             Run EUnit Tests.
 help              Display a list of tasks or help for a given task or subtask.
 new               Create new project from templates.
+path              Print paths to build dirs in current profile.
 pkgs              List available packages.
 release           Build release of project.
 relup             Create relup of releases.

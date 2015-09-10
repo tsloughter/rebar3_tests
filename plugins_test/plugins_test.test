@@ -1,0 +1,2 @@
+TERM=dumb rebar3 plugins list
+>>>= 0

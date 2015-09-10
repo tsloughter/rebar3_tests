@@ -1,0 +1,16 @@
+{application, 'eunit_test',
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'eunit_test_app', []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
