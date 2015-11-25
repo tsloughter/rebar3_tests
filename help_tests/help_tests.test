@@ -19,6 +19,7 @@ Rebar3 is a tool for working with Erlang projects.
 Several tasks are available:
 
 as                Higher order provider for running multiple tasks in a sequence as a certain profiles.
+auto              Automatically run compile task on change of source file and reload modules.
 clean             Remove compiled beam files from apps.
 compile           Compile apps .app.src and .erl files.
 cover             Perform coverage analysis.
@@ -58,7 +59,11 @@ hex <task>:
 
 plugins <task>:
   list           List local and global plugins for this project
-  upgrade        Uprade plugins
+  upgrade        Upgrade plugins
+
+unstable <task>:
+  install        Extract libs from rebar3 escript along with a run script.
+  upgrade        Download latest rebar3 escript and extract.
 
 Run 'rebar3 help <TASK>' for details.
 
@@ -70,7 +75,7 @@ rebar3 plugins
 
 plugins <task>:
   list           List local and global plugins for this project
-  upgrade        Uprade plugins
+  upgrade        Upgrade plugins
 >>>= 0
 
 rebar3 help plugins
@@ -78,7 +83,7 @@ rebar3 help plugins
 
 plugins <task>:
   list           List local and global plugins for this project
-  upgrade        Uprade plugins
+  upgrade        Upgrade plugins
 >>>= 0
 
 rebar3 help plugins list
