@@ -1,4 +1,3 @@
-*.d
 .rebar3
 _*
 .eunit
@@ -17,3 +16,4 @@ _deps
 _plugins
 _tdeps
 logs
+_build
