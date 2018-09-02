@@ -8,6 +8,7 @@ escript (built-in): Complete escriptized application structure
 lib (built-in): Complete OTP Library application (no processes) structure
 plugin (built-in): Rebar3 plugin project structure
 release (built-in): OTP Release structure for executable programs
+umbrella (built-in): OTP structure for executable programs (alias of 'release' template)
 >>>= 0
 
 rebar3 help
@@ -19,7 +20,6 @@ Rebar3 is a tool for working with Erlang projects.
 Several tasks are available:
 
 as                Higher order provider for running multiple tasks in a sequence as a certain profiles.
-auto              Automatically run compile task on change of source file and reload modules.
 clean             Remove compiled beam files from apps.
 compile           Compile apps .app.src and .erl files.
 cover             Perform coverage analysis.
@@ -30,6 +30,7 @@ do                Higher order provider for running multiple tasks in a sequence
 edoc              Generate documentation using edoc.
 escriptize        Generate escript archive.
 eunit             Run EUnit Tests.
+get-deps          Fetch dependencies.
 help              Display a list of tasks or help for a given task or subtask.
 new               Create new project from templates.
 path              Print paths to build dirs in current profile.
@@ -57,13 +58,13 @@ hex <task>:
   search         Display packages matching the given search query
   user           Hex user tasks
 
+local <task>:
+  install        Extract libs from rebar3 escript along with a run script.
+  upgrade        Download latest rebar3 escript and extract.
+
 plugins <task>:
   list           List local and global plugins for this project
   upgrade        Upgrade plugins
-
-unstable <task>:
-  install        Extract libs from rebar3 escript along with a run script.
-  upgrade        Download latest rebar3 escript and extract.
 
 Run 'rebar3 help <TASK>' for details.
 

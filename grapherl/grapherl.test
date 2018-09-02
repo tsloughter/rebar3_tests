@@ -1,2 +1,0 @@
-cd grapherl && TERM=dumb rebar3 compile
->>>= 0
