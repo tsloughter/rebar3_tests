@@ -1,0 +1,5 @@
+TERM=dumb rebar3 compile
+>>>
+===> Verifying dependencies...
+===> Dep fake has invalid version >x.y.z
+>>>= 1
