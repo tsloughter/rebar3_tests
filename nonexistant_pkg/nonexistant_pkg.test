@@ -1,5 +1,5 @@
 TERM=dumb rebar3 compile
->>> /===> Package not found in any repo: dont_exist-undefined./
+>>> /===> Package not found in any repo: dont_exist./
 >>>= 1
 
 TERM=dumb rebar3 pkgs madeuppackagename

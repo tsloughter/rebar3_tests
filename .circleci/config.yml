@@ -1,0 +1,14 @@
+version: 2.0
+jobs:
+  test:
+    docker:
+      - image: tsloughter/shelltestrunner-rebar3:0.0.1
+    steps:
+      - checkout
+      - run: ./run_tests.sh
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
