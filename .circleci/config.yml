@@ -8,6 +8,7 @@ jobs:
       - run: |
           apt-get update
           apt-get install -y shelltestrunner build-essential
+          mix local.hex
           ./run_tests.sh ci
 
 workflows:
