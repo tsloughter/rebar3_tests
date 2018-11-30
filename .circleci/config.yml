@@ -12,6 +12,16 @@ jobs:
 
 workflows:
   version: 2
-  test:
+  commit:
+    jobs:
+      - test
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
     jobs:
       - test
