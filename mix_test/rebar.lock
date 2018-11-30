@@ -1,6 +1,8 @@
 {"1.1.0",
-[{<<"cookie">>,{pkg,<<"cookie">>,<<"0.1.1">>},0}]}.
+[{<<"nebulex">>,{pkg,<<"nebulex">>,<<"1.0.0">>},0},
+ {<<"shards">>,{pkg,<<"shards">>,<<"0.6.0">>},1}]}.
 [
 {pkg_hash,[
- {<<"cookie">>, <<"89438362EE0F0ED400E9F076D617D630F82D682E3FBCF767072A46A6E1ED5781">>}]}
+ {<<"nebulex">>, <<"6D331F2711E8C318CACE41759C97FB8F9C1424ABAAC8DD1E1CA78A54CE9215B2">>},
+ {<<"shards">>, <<"678D292AD74A4598A872930F9B12251F43E97F6050287F1FB712FBFD3D282F75">>}]}
 ].
