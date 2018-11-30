@@ -1,6 +1,8 @@
 Rebar3 ShellTestRunner
 ----------------------
 
+[![CircleCI](https://circleci.com/gh/tsloughter/rebar3_tests.svg?style=svg)](https://circleci.com/gh/tsloughter/rebar3_tests)
+
 ## Requirements
 
 * [rebar3](http://www.github.com/rebar/rebar3)
