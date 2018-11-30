@@ -1,0 +1,6 @@
+-sname behaviour_test
+
+-setcookie behaviour_test_cookie
+
++K true
++A30

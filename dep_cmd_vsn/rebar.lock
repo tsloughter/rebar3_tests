@@ -1,0 +1,4 @@
+[{<<"yaws">>,
+  {git,"https://github.com/klacke/yaws.git",
+       {ref,"d371b828eb26c1ded9f6110c764b7f42da773e2b"}},
+  0}].

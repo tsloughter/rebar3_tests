@@ -1,5 +1,3 @@
-rebar3
-*.d
 .rebar3
 _*
 .eunit
@@ -13,8 +11,9 @@ ebin
 log
 erl_crash.dump
 .rebar
-_rel
-_deps
-_plugins
-_tdeps
 logs
+_build
+.idea
+*.iml
+rebar3.crashdump
+*~

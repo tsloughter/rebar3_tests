@@ -2,10 +2,13 @@ version: 2.0
 jobs:
   test:
     docker:
-      - image: tsloughter/shelltestrunner-rebar3:0.0.1
+      - image: erlang:21.0
     steps:
       - checkout
-      - run: ./run_tests.sh
+      - run: |
+          apt-get update
+          apt-get install -y shelltestrunner
+          ./run_tests.sh ci
 
 workflows:
   version: 2
