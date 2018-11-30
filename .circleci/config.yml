@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run: |
           apt-get update
-          apt-get install -y shelltestrunner
+          apt-get install -y shelltestrunner build-essential
           ./run_tests.sh ci
 
 workflows:
