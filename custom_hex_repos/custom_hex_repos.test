@@ -1,0 +1,3 @@
+rm ~/.cache/rebar3/hex/packages.idx
+TERM=dumb rebar3 compile
+>>>= 0
