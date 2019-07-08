@@ -1,7 +1,7 @@
 TERM=dumb rebar3 compile
 >>>
 ===> Verifying dependencies...
-===> Failed to update package from repo hexpm
+===> Failed to update package dont_exist from repo hexpm
 ===> Package not found in any repo: dont_exist
 >>>= 1
 
