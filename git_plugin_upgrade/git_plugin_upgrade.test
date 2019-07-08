@@ -1,0 +1,13 @@
+TERM=dumb rebar3 compile
+>>>= 0
+
+sed -i 's/0.6.6/0.6.7/' rebar.config
+>>>
+>>>=0
+
+TERM=dumb rebar3 plugins upgrade rebar3_hex
+>>>= 0
+
+sed -i 's/0.6.7/0.6.6/' rebar.config
+>>>
+>>>=0

@@ -2,14 +2,14 @@ version: 2.0
 jobs:
   test:
     docker:
-      - image: elixir:1.7.4
+      - image: elixir:1.9.0
     steps:
       - checkout
       - run: |
           apt-get update
           apt-get install -y shelltestrunner build-essential
           mix local.hex --force
-          ./run_tests.sh ci
+          ./run_tests.sh
 
 workflows:
   version: 2

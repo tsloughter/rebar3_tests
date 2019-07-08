@@ -6,7 +6,7 @@ cd $(dirname $(realpath $0))
 
 export TERM=dumb
 
-if [ "$1" = "ci" ]
+if [ "$CIRCLECI" ]
 then
     curl -k https://s3.amazonaws.com/rebar3-nightly/rebar3 -o rebar3
     chmod +x rebar3
