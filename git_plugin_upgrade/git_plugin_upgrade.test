@@ -5,7 +5,7 @@ sed -i 's/0.6.6/0.6.5/' rebar.config
 >>>
 >>>=0
 
-TERM=dumb rebar3 plugins upgrade rebar3_hex
+TERM=dumb rebar3 plugins upgrade rebar3_clojerl
 >>>= 0
 
 sed -i 's/0.6.5/0.6.6/' rebar.config
