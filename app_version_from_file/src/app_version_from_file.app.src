@@ -1,0 +1,14 @@
+{application, app_version_from_file,
+ [{description, "Test use of {file, Filename} for app vsn"},
+  {vsn, {file, "VERSION"}},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
