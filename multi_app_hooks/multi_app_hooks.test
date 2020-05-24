@@ -8,6 +8,7 @@ CLEAN!
 TERM=dumb rebar3 compile
 >>>
 ===> Verifying dependencies...
+===> Analyzing applications...
 ===> Compiling multi_app_hooks
 COMPILE!
 >>>= 0

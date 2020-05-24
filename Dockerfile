@@ -1,4 +1,4 @@
-FROM erlang:21.0
+FROM erlang:22
 
 RUN set -xe \
 	&& runtimeDeps='curl \

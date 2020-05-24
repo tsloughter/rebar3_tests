@@ -17,4 +17,4 @@ rebar3 version
 
 find . -name _build | xargs rm -rf
 
-shelltest -c --diff --all --debug --execdir */*.test
+shelltest -c --diff --all --execdir */*.test
