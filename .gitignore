@@ -1,3 +1,4 @@
+sub_dir_deps/rebar.lock
 rebar3
 *.d
 .rebar3
