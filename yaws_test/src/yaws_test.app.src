@@ -1,0 +1,16 @@
+{application, yaws_test,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {yaws_test_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    yaws
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
