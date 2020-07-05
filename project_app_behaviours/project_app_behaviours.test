@@ -1,0 +1,7 @@
+TERM=dumb rebar3 compile
+>>>
+===> Verifying dependencies...
+===> Analyzing applications...
+===> Compiling project_app_with_behaviour
+===> Compiling project_app_behaviours
+>>>= 0
