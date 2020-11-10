@@ -1,0 +1,54 @@
+#
+# These tests make sure that rebar3 can create a release upgrade
+# and apply it to a release.
+#
+rebar3 tar  --relname relup_test --relvsn 0.1.0
+>>>= 0
+rebar3 release --relname relup_test --relvsn 0.2.0
+>>>= 0
+rebar3 relup
+>>> /.*Could not find a valid release for release upgrade.*/
+>>>= 1
+rebar3 relup --relname relup_test
+>>> /.*Could not find a valid version for release upgrade.*/
+>>>= 1
+rebar3 relup --relvsn 0.2.0
+>>> /.*Could not find a valid release for release upgrade.*/
+>>>= 1
+rebar3 relup --relname relup_test --relvsn 0.2.0
+>>>= 0
+rebar3 tar --relname relup_test --relvsn 0.2.0
+>>>= 0
+mkdir _build/rel
+>>>= 0
+cp _build/default/rel/relup_test/relup_test-0.1.0.tar.gz _build/rel/
+>>>= 0
+cd _build/rel && tar xzf relup_test-0.1.0.tar.gz
+>>>= 0
+cd _build/rel && bin/relup_test daemon
+>>>= 0
+cd _build/rel/ && bin/relup_test versions
+>>>
+Installed versions:
+* 0.1.0	permanent
+>>>= 0
+cp _build/default/rel/relup_test/relup_test-0.2.0.tar.gz _build/rel/releases/
+>>>= 0
+cd _build/rel/ && bin/relup_test unpack 0.2.0
+>>>= 0
+cd _build/rel/ && bin/relup_test versions
+>>>
+Installed versions:
+* 0.2.0	unpacked
+* 0.1.0	permanent
+>>>= 0
+cd _build/rel/ && bin/relup_test upgrade 0.2.0
+>>>= 0
+cd _build/rel/ && bin/relup_test versions
+>>>
+Installed versions:
+* 0.2.0	permanent
+* 0.1.0	old
+>>>= 0
+cd _build/rel && bin/relup_test stop
+>>>= 0
