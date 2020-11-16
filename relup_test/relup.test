@@ -7,13 +7,13 @@ rebar3 tar  --relname relup_test --relvsn 0.1.0
 rebar3 release --relname relup_test --relvsn 0.2.0
 >>>= 0
 rebar3 relup
->>> /.*Could not find a valid release for release upgrade.*/
+>>> /.*Option --relname is missing.*/
 >>>= 1
 rebar3 relup --relname relup_test
->>> /.*Could not find a valid version for release upgrade.*/
+>>> /.*Option --relvsn is missing*/
 >>>= 1
 rebar3 relup --relvsn 0.2.0
->>> /.*Could not find a valid release for release upgrade.*/
+>>> /.*Option --relname is missing.*/
 >>>= 1
 rebar3 relup --relname relup_test --relvsn 0.2.0
 >>>= 0
