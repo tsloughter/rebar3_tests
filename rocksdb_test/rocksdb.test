@@ -1,5 +1,5 @@
 TERM=dumb rebar3 compile
 >>>= 0
 
-ls _build/default/lib/rocksdb/priv/rocksdb.so
+ls _build/default/lib/rocksdb/priv/liberocksdb.so
 >>>= 0
