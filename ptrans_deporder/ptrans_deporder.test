@@ -1,0 +1,11 @@
+TERM=dumb rebar3 compile
+>>>= 0
+
+ls _build/default/checkouts/a_dep/ebin/a_dep.beam
+>>>= 0
+
+ls _build/default/checkouts/b_dep/ebin/b_dep.beam
+>>>= 0
+
+ls _build/default/checkouts/z_dep/ebin/z_dep.beam
+>>>= 0
