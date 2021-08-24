@@ -1,0 +1,11 @@
+{application,exometer_fetch,
+             [{description,"Fetch helper for exometer"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib,exometer_core]},
+              {env,[]},
+              {maintainers,["Yury Gargay"]},
+              {licenses,["MPL 2.0"]},
+              {links,[{"Github",
+                       "https://github.com/travelping/exometer_fetch"}]},
+              {modules,[exometer_fetch,exometer_report_fetch]}]}.
