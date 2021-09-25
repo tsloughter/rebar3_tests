@@ -1,0 +1,18 @@
+{application, optional_applications_test,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {optional_applications_test_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    inets,
+    elli
+   ]},
+  {optional_applications, [inets, elli]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
