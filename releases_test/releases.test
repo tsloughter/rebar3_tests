@@ -1,0 +1,8 @@
+rebar3 release
+>>>= 1
+rebar3 release --relname app1
+>>>= 0
+rebar3 release --relnames app1,both
+>>>= 0
+rebar3 release --all
+>>>= 0
