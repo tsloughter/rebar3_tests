@@ -1,0 +1,6 @@
+-sname releases_test
+
+-setcookie releases_test_cookie
+
++K true
++A30
