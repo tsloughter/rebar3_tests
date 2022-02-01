@@ -8,7 +8,7 @@
   1},
  {<<"eleveldb">>,
   {git,"https://github.com/basho/eleveldb.git",
-       {ref,"c0c9c887e67f696edc37dcc4f9f95fa132335c21"}},
+       {ref,"3dee1dd7173507a4ad29df1ceb99cb70d6142478"}},
   0},
  {<<"goldrush">>,
   {git,"git://github.com/DeadZen/goldrush.git",
