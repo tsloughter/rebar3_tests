@@ -1,6 +1,0 @@
--name conflicting_erlydtl
-
--setcookie conflicting_erlydtl_cookie
-
-+K true
-+A30
