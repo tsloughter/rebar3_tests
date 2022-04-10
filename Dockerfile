@@ -1,7 +1,8 @@
-FROM erlang:24
+FROM elixir:1.13.3
 
 RUN set -xe \
 	&& runtimeDeps='curl \
+            cmake \
             shelltestrunner \
             git' \
 	&& apt-get update \
