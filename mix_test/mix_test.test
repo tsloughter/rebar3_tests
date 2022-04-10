@@ -1,3 +1,5 @@
+mix local.hex --force; mix local.rebar --force
+>>>= 0
 TERM=dumb rebar3 compile
 >>>= 0
 
