@@ -1,4 +1,4 @@
-FROM erlang:22
+FROM erlang:24
 
 RUN set -xe \
 	&& runtimeDeps='curl \
@@ -8,4 +8,6 @@ RUN set -xe \
 	&& apt-get install -y $runtimeDeps \
     && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["/app/run_tests.sh", "ci"]
+ADD . app/
+
+ENTRYPOINT ["./app/run_tests.sh"]
