@@ -24,7 +24,7 @@
   0},
  {<<"procket">>,
   {git,"https://github.com/msantos/procket.git",
-       {ref,"531070417f0284e466335f35a94a6bddd1391aad"}},
+       {ref,"193d90db5c626fbdf0bd24d58e7e21d434c61500"}},
   0},
  {<<"ranch">>,
   {git,"https://github.com/ninenines/ranch.git",
