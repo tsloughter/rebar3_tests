@@ -1,17 +1,18 @@
 {"1.2.0",
 [{<<"decorator">>,{pkg,<<"decorator">>,<<"1.4.0">>},1},
  {<<"nebulex">>,{pkg,<<"nebulex">>,<<"2.1.1">>},0},
- {<<"shards">>,{pkg,<<"shards">>,<<"1.0.1">>},1},
+ {<<"shards">>,
+  {git,"https://github.com/cabol/shards.git",
+       {ref,"82560f5e8eae8c21661ee5ab88b9811597e6d961"}},
+  0},
  {<<"telemetry">>,{pkg,<<"telemetry">>,<<"0.4.3">>},1}]}.
 [
 {pkg_hash,[
  {<<"decorator">>, <<"A57AC32C823EA7E4E67F5AF56412D12B33274661BB7640EC7FC882F8D23AC419">>},
  {<<"nebulex">>, <<"AE7FE6791B03B00CAEAA1A63C80DE061903617187C3635CBF016A5B78B0459C5">>},
- {<<"shards">>, <<"1BDBBF047DB27F3C3EB800A829D4A47062C84D5543CBFEBCFC4C14D038BF9220">>},
  {<<"telemetry">>, <<"A06428A514BDBC63293CD9A6263AAD00DDEB66F608163BDEC7C8995784080818">>}]},
 {pkg_hash_ext,[
  {<<"decorator">>, <<"0A07CEDD9083DA875C7418DEA95B78361197CF2BF3211D743F6F7CE39656597F">>},
  {<<"nebulex">>, <<"A8F803E8FD0FC653FE10E5EF72C78592B0F8CC17980D02D6DCE0B93047569624">>},
- {<<"shards">>, <<"2C57788AFBF053C4024366772892BEEE89B8B72E884E764FB0A075DFA7442041">>},
  {<<"telemetry">>, <<"EB72B8365FFDA5BED68A620D1DA88525E326CB82A75EE61354FC24B844768041">>}]}
 ].
