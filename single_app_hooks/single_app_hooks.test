@@ -3,7 +3,6 @@ TERM=dumb rebar3 clean
 ===> Verifying dependencies...
 ===> Cleaning out single_app_hooks...
 CLEAN!
-CLEAN!
 >>>= 0
 
 TERM=dumb rebar3 compile
