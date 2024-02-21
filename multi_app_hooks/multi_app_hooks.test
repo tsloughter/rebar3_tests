@@ -1,6 +1,5 @@
 TERM=dumb rebar3 clean
 >>>
-===> Verifying dependencies...
 ===> Cleaning out multi_app_hooks...
 CLEAN!
 >>>= 0
