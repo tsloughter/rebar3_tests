@@ -1,0 +1,10 @@
+TERM=dumb rebar3 ct
+>>> /All 1 tests passed/
+>>>= 0
+
+TERM=dumb rebar3 do eunit, ct
+>>> /All 1 tests passed/
+>>>= 0
+
+TERM=dumb rebar3 do ct, ct
+>>>= 0
