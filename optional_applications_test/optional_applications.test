@@ -1,0 +1,13 @@
+TERM=dumb rebar3 as with_elli release
+>>>= 0
+
+# elli should be in the release
+ls _build/with_elli/rel/optional_applications_test/lib/elli-*
+>>>= 0
+
+TERM=dumb rebar3 release
+>>>= 0
+
+# no elli should be in the default profile release
+ls _build/default/rel/optional_applications_test/lib/elli-*
+>>>= 1
